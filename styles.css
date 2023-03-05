@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+body {
+    background-image: url(img/background.png);
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+i {
+    font-size: 1em;
+    color: white;
+    text-shadow: 2px 4px 4px rgba(231, 106, 57, 0.8);
+}
+
+.carrot-l {
+    background: no-repeat url("img/carrotL.png");
+    background-position: center;
+    background-size: contain;
+    padding: 24px;
+}
+
+.carrot-r {
+    background: no-repeat url("img/carrotR.png");
+    background-position: center;
+    background-size: contain;
+    padding: 24px;
+}
+
+.container {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
